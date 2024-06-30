@@ -6,14 +6,12 @@
 	<style> 
 		#myheader {background-color: saddlebrown;
 		color: black;
-		padding: 20px;
+		padding: 40px;
 		text-align: center}
 	
-		.container { 
-  height: 230px;
-  position: relative;
-			border: 3px solid tan; background-image:url("images/cookiebanner.png") }
-				.center {
+		#bannerimage {width: 100%;
+		background-image: url("images/cookiebanner.png"); 
+		height: 230px} 
   margin: 0;
   position: absolute;
   top: 50%;
@@ -31,7 +29,13 @@ table, th, td {
   margin-right: auto;
   width: 50%;
 }
-		
+		.btn-group button {background-color: white;
+		border:3px #050505;
+			color: black;
+			padding: 10px 24px;
+			cursor: pointer;
+			float: right;
+				}	
 		
 		
 	  </style>
@@ -45,11 +49,14 @@ table, th, td {
 	
 
 <body style="background-color:bisque">
-	<h1 id="myheader"></h1>
-	<img src="images/The Cookie Jar.png" alt="cookie jar logo" width="200px" height="200px">
+<h4 id="myheader" class="btn-group"> <button> Contact</button> <button> About </button></h4>
 	
 	
-	<div class="container"> </div>
+	<img src="images/The Cookie Jar.png" alt="cookie jar logo" width="200px" height="200px" style=> 
+	
+	
+	
+	<div id="bannerimage"> </div>
 	<br>
 	<br>
 	<h1 style="text-align: center; font-size: 30px" > Homemade Cookies Delivered Right to Your Door Every Week! </h1>
@@ -57,10 +64,10 @@ table, th, td {
 	<br>
 	<br>
 	
-	<h2 style="text-align: center;font-size: 25px;background-color: saddlebrown"> Menu </h2>
+<h2 style="text-align: center;font-size: 25px;background-color: saddlebrown"> Menu </h2>
 	
-<img src="images/menu.png.png" alt="menu" width="800px" height="1000px" style="width: 80%">
-															
+<div style="width: 100%; text-align: center"> <img src="images/menu.png.png" alt="menu"  style="width: 50%"> </div>
+														
 		 
 </body>
 </html>
